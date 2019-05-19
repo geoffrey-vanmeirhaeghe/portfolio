@@ -204,7 +204,7 @@ p{
 .fade-out{
     animation: fade-out;
     animation-duration: 1.5s;
-    animation-delay: 4s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
 }
 
@@ -275,7 +275,7 @@ p{
     background-color: $white;
     border-radius: 0px;
     box-shadow: 0px 4px 5px rgba(23, 28, 47, 0.3);
-    z-index: +98;
+    z-index: +99;
     ul{
         width: 100%;
         text-align: right;
@@ -313,7 +313,7 @@ p{
 }
 .header-text{
     padding-left: 50px;
-    animation-delay: 4s;
+    animation-delay: 3s;
     h1{
         margin-top: 22vh;
     }
@@ -330,55 +330,74 @@ p{
     height: 100%;
     background-image: url("images/header/home-right.png");
     background-size: cover;
-    animation-delay: 4s;
+    animation-delay: 3s;
 }
 
 // CONTENT
 section{
-    position: relative;
     min-height: 100vh !important;
-    padding-bottom: 8vh;
-    overflow: hidden;
+    padding-bottom: 10vh;
+    h2{
+        padding-top: 10vh;
+    }
+}
+
+.components-grid{
+    padding: 0 4vw 0 4vw;
+    padding-top: 15vh;
+    align-items: center;
     height: auto;
+    overflow: hidden;
 }
 
 #overview{
+    position: relative;
+    overflow: hidden;
+    height: auto;
     box-shadow: 0px -20px 20px -20px rgba(23, 28, 47, 0.5);
-    .components-wrap{
-        padding-top: 20vh;
+    .components-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 20px;
+        z-index: 1;
+        a{
+            display: block;
+            cursor: pointer;
+            z-index: 2;
+            background-color: $white;
+            padding: 2px 2px 2px 2px !important;
+            position: relative;
+            .border-padding{
+                padding: 0 0 5px 0;
+                background-color: $secondary-color;
+                height: 100%;
+            }
+            img{
+                width: 100%;
+            }
+            h4{
+                padding: 5px 15px 0px 15px;
+                text-align: center;
+                color: $white;
+            }
+        }
+        a:hover .overlay{
+            opacity: 0.9;
+        }
     }
 }
 
-.components-wrap{
-    padding: 0 4vw 0 4vw;
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
-    z-index: 1;
-    a{
-        display: block;
-        cursor: pointer;
-        z-index: 2;
-        background-color: $white;
-        padding: 2px 2px 2px 2px !important;
-        position: relative;
-        .border-padding{
-            padding: 0 0 5px 0;
-            background-color: $secondary-color;
-            height: 100%;
-        }
-        img{
-            width: 100%;
-        }
+#services{
+    .components-grid{
+        text-align: center;
         h4{
-            padding: 5px 15px 0px 15px;
-            text-align: center;
-            color: $white;
+            font-size: 20px;
+            margin-top: 40px;
         }
-    }
-    a:hover .overlay{
-        opacity: 0.9;
+        p{
+            margin-top: 40px;
+            padding: 0 40px 0 40px;
+        }
     }
 }
 
