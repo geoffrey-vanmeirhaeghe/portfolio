@@ -17,12 +17,12 @@
     </div>
 </nav>
 <!-- fullscreen nav -->
-<nav class="navbar nav">
+<nav class="animated slideInDown delay-4s navbar nav">
     <ul>
         <li class="pull-left" id="home-button">
             <a href="{{site.baseurl}}/index.html"><img class="nav-logo" src="{{site.baseurl}}/assets/images/components/logo-pos.png"></a>
         </li>
-        <li class="nav-text"><a class="primary" href="{{site.baseurl}}/index.html#overview">Work</a></li>
+        <li class="nav-text"><a class="primary" href="#overview">Work</a></li>
         {% for item in site.data.navbar.docs %}
         <li class="nav-text"><a class="primary" href="{{site.baseurl}}{{ item.url }}">{{ item.title }}</a></li>
         {% endfor %}
