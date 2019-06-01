@@ -372,6 +372,7 @@ p{
         height: 100vh;
         right: -400px;
         transition: 1s;
+        z-index: 98;
         input[type='checkbox'] {
             display: none;
         }
@@ -672,7 +673,7 @@ section{
     }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
     
     // Navbar
     .navbar{
@@ -805,29 +806,6 @@ section{
             text-align: left;
         }
     }
-}
-
-@media only screen and (max-width: 480px){
-    .header-text{
-        .header-buttons{
-            margin: 0 auto;
-            text-align: center;
-            margin-top: 10vmax;
-            a{
-                display: block;
-                width: 95%;
-                margin: 0px auto;
-                font-size: 3vmax;
-                margin-top: 1vmax;
-            }
-        }
-    }
-    .header-image{
-        display: none;
-    }
-    .section-title{
-        font-size: 4vmax;
-    }
     .slide-content{
         display: none;
     }
@@ -867,14 +845,42 @@ section{
         }
     }
     .text-column{
+        padding: 8% 8% 8% 8%;
+        border-radius: 0px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .header-text{
+        .header-buttons{
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 10vmax;
+            a{
+                display: block;
+                width: 95%;
+                margin: 0px auto;
+                font-size: 3vmax;
+                margin-top: 1vmax;
+            }
+        }
+    }
+    .header-image{
+        display: none;
+    }
+    .section-title{
+        font-size: 4vmax;
+    }
+    #intro-container{
+        margin-right: -15px !important;
+    }
+    
+    .text-column{
         text-align: center;
         padding: 16% 16% 16% 16%;
         border-bottom-left-radius: 0px;
         p{
             text-align: center;
         }
-    }
-    #intro-container{
-        margin-right: -15px !important;
     }
 }
