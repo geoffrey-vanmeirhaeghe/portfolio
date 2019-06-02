@@ -1,0 +1,1 @@
+Centra voor Geestelijke Gezondheidszorg zijn gespecialiseerd in tweedelijns geestelijke gezondheidszorg. Omwille van de complexiteit van Psychologie streven ze naar zorgverlening en informatieoverdracht op 3 niveaus, nl. het niveau van de hulpvragende, de hulpverlener en verdeling van preventie en informatie.

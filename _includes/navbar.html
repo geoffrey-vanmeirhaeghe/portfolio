@@ -7,7 +7,7 @@
         <div class="collapsible-content">
             <ul>
                 <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-                <li><a href="#overview">Work</a></li>
+                <li><a href="{{site.baseurl}}/index.html#overview">Work</a></li>
                 {% for item in site.data.navbar.docs %}
                 <li><a href="{{site.baseurl}}{{ item.url }}">{{ item.title }}</a></li>
                 {% endfor %}

@@ -1,0 +1,1 @@
+Als proefwerk ter afsluiting van mijn opleiding had ik de kans om de huisstijl van het Centrum voor Geestelijke Gezondheidszorg Eclips te restylen. Hier was ik verantwoordelijk voor designs van het logo, lay-out templates, een vernieuwde website, outdoor aanwezigheid, etc.

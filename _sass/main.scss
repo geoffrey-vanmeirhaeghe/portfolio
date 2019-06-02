@@ -280,6 +280,9 @@ p{
     border-left: 1px solid $white;
     min-height: 20px;
 }
+.br-br{
+    border-bottom-right-radius: 30px;
+}
 
 // NAVBAR
 .navbar-m{
@@ -318,6 +321,9 @@ p{
     transform: scale(1.15);
     transition-timing-function: ease-in;
     transition-duration: 1s;
+}
+.nav-adjust{
+    padding-top: 150px;
 }
 
 // HEADER
@@ -502,6 +508,7 @@ section{
     .components-grid{
         padding: 0 4vw 0 4vw;
         padding-top: 10vh;
+        padding-bottom: 30px;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-gap: 20px;
@@ -513,24 +520,30 @@ section{
             cursor: pointer;
             z-index: 2;
             background-color: $white;
-            padding: 2px 2px 2px 2px !important;
             position: relative;
+            border-radius: 10px;
             .border-padding{
-                padding: 0 0 5px 0;
-                background-color: $secondary-color;
+                background-color: $primary-color;
                 height: 100%;
+                border: 1px solid $grey;
+                border-radius: 10px;
             }
             img{
                 width: 100%;
+                border-radius: 8px 8px 0px 0px;
+                border-bottom: 5px solid $secondary-color;
             }
             h4{
-                padding: 5px 15px 0px 15px;
+                padding: 5px 15px 5px 15px;
                 text-align: center;
                 color: $white;
             }
         }
         a:hover .overlay{
             opacity: 0.9;
+            border-radius: 10px;
+            transform: scale(1.05);
+            transition: 0.3s ease;
         }
     }
 }
@@ -565,6 +578,9 @@ section{
 }
 
 .text-column{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
     h2{
         font-weight: 600;
         display: inline-block;
@@ -597,6 +613,33 @@ section{
     }
 }
 
+// PROJECTS
+.preview-container{
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 7vh;
+    img{
+        width: 100%;
+        margin-bottom: 5vh;
+        border-radius: 25px;
+    }
+    p{
+        color: $primary-color;
+        margin-bottom: 5vh;
+        padding-top: 5vh;
+        border-top: 1px solid $secondary-color;
+    }
+    .button-border{
+        margin: 0 auto;
+        padding: 10px 30px;
+    }
+}
+.thin-border{
+    border: 1px solid $primary-color;
+    border-radius: 5px;
+    font-size: 14px;
+}
 // FOOTER
 #footer{
     background-color: $primary-color;
@@ -670,6 +713,12 @@ section{
         position: absolute;
         opacity: 0.15;
         z-index: -6;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .br-br{
+        border-radius: 0px;
     }
 }
 
@@ -847,6 +896,9 @@ section{
     .text-column{
         padding: 8% 8% 8% 8%;
         border-radius: 0px;
+    }
+    .nav-adjust{
+        padding-top: 100px;
     }
 }
 
