@@ -9,6 +9,7 @@ $baseurl: "{{ site.baseurl }}";
 // Color Variables
 $primary-color: #294899;
 $secondary-color: #BFE2F8;
+$light-color: #BFE2F8;
 $dark-color: rgba(12, 32, 83, 0.97);
 $grey: #DDD;
 $white: #FFF;
@@ -18,6 +19,12 @@ $white: #FFF;
 }
 .secondary-bg{
     background-color: $secondary-color;
+}
+.dark-bg{
+    background-color: $dark-color;
+}
+.light-bg{
+    background-color: $light-color;
 }
 .grey-bg{
     background-color: $grey;
@@ -30,6 +37,12 @@ $white: #FFF;
 }
 .secondary{
     color: $secondary-color;
+}
+.dark{
+    color: $dark-color;
+}
+.light{
+    color: $light-color;
 }
 .grey{
     color: $grey;
@@ -48,7 +61,7 @@ body {
     color: $primary-color;
 }
 h1{
-    font-size: 5vmax;
+    font-size: 6vmax;
     line-height: 120%;
     margin: 0px;
 }
@@ -109,29 +122,31 @@ p{
 .button-fill{
     font-size: 1.5vmax;
     font-weight: 800;
-    background-color: $primary-color;
+    background-color: $secondary-color;
     color: $white;
     margin-right: 20px;
     padding: 19px 44px 19px 44px;
+    border-radius: 25px;
 }
 .button-fill:hover{
     color: $primary-color;
     background-color: rgba(255, 255, 255, 0);
-    border: 4px solid $primary-color;
+    border: 1px solid $secondary-color;
     text-decoration: none;
 }
 .button-border{
     font-size: 1.5vmax;
     font-weight: 800;
-    border: 4px solid $primary-color;
-    color: $primary-color;
+    border: 1px solid $secondary-color;
+    color: $secondary-color;
     margin-right: 20px;
     padding: 15px 40px 15px 40px;
+    border-radius: 25px;
 }
 .button-border:hover{
     color: $white;
-    background-color: $primary-color;
-    border: 0px solid $primary-color;
+    background-color: $secondary-color;
+    border: 0px solid $secondary-color;
     text-decoration: none;
     padding: 23px 48px 23px 48px;
 }
@@ -249,7 +264,7 @@ p{
 }
 .overlay{
     position: absolute;
-    background-color: $primary-color;
+    background-color: $secondary-color;
     top: 0;
     right: 0;
     bottom: 0;
@@ -344,13 +359,13 @@ p{
     }
     p{
         margin-top: 8vh;
-        padding-right: 10vw;
+        padding-right: 6vw;
         font-size: 19px;
         letter-spacing: inherit;
         word-spacing: inherit;
     }
     .header-buttons{
-        margin-top: 12vh;
+        margin-top: 8vh;
     }
 }
 .header-image{
@@ -389,7 +404,7 @@ p{
         label{
             margin-top: 50vh;
             padding: 10px 30px 10px 20px;
-            background-color: $primary-color;
+            background-color: $secondary-color;
             border-bottom-left-radius: 50px;
             border-top-left-radius: 50px;
             color: $white;
@@ -442,7 +457,7 @@ p{
                 .item-title{
                     font-size: 10px;
                     padding: 0px;
-                    color: $secondary-color;
+                    color: $light-color;
                 }
                 .item-note{
                     opacity: 0.7;
@@ -523,7 +538,7 @@ section{
             position: relative;
             border-radius: 10px;
             .border-padding{
-                background-color: $primary-color;
+                background-color: $secondary-color;
                 height: 100%;
                 border: 1px solid $grey;
                 border-radius: 10px;
@@ -531,7 +546,7 @@ section{
             img{
                 width: 100%;
                 border-radius: 8px 8px 0px 0px;
-                border-bottom: 5px solid $secondary-color;
+                border-bottom: 5px solid $white;
             }
             h4{
                 padding: 5px 15px 5px 15px;
@@ -556,6 +571,7 @@ section{
 }
 
 #services{
+    box-shadow: 0px 20px 20px -20px rgba(23, 28, 47, 0.35);
     .components-grid{
         text-align: center;
         align-items: center;
@@ -585,7 +601,7 @@ section{
         font-weight: 600;
         display: inline-block;
         padding: 0 0 20px 0;
-        border-bottom: 5px solid $secondary-color;
+        border-bottom: 5px solid $light-color;
         margin-bottom: 32px;
     }
     h4{
@@ -641,6 +657,41 @@ section{
     font-size: 14px;
 }
 // FOOTER
+#company-bar-title{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    h3{
+        display: inline;
+        padding-bottom: 14px;
+        font-size: 20px;
+        opacity: 0.7;
+    }
+}
+
+#company-bar{
+    background-color: rgba($light-color, 0.25);
+    padding: 6vh 5vw 8vh 5vw;
+    border-bottom: 7px solid $light-color;
+    border-top-left-radius: 140px;
+    border-top-right-radius: 140px;
+    .client-list{
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style: none;
+        li{
+            float: left;
+            img{
+                max-height: 7vh;
+                margin: 25px 25px 0 25px;
+                opacity: 0.7;
+            }
+        }
+    }
+}
+
 #footer{
     background-color: $primary-color;
     padding-top: 18vh;
