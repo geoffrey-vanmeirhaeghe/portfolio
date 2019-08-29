@@ -1,0 +1,1 @@
+Chicago Latino Film Festival is een jaarlijks Film festival waar de aandacht op Latijnse filmkunst wordt gevestigd. Jaarlijks worden de meest uitmuntende films bekroond met een award ter appreciatie voor de artistieke bijdrage.

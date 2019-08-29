@@ -1,0 +1,1 @@
+Als onderdeel van een Lay-Out opdracht, kreeg het jaarverslag van WoninGent een redesign. Hierbij werd beoogd om zowel de waarden van de organisatie te behouden, alsook een professionelere look & feel te bekomen. Verder was het key om de grote hoeveelheid aan cijfermateriaal en informatie om te zetten naar overzichtelijke grafische elementen.

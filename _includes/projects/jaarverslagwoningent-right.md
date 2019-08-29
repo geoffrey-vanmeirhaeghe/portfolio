@@ -1,0 +1,1 @@
+WoninGent is een CVBA in de vastgoed sector. Als core business hanteert ze projectontwikkeling en verkoop binnen sociaal vastgoed. Zo wordt er gestreefd naar betaalbaar wonen enerzijds en het uitbouwen van een patrimonium anderzijds.

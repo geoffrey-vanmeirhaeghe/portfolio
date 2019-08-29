@@ -1,0 +1,1 @@
+In functie van een laatstejaarsopdracht werd deelgenomen aan de briefing van een Amerikaans film festival, nl. Chicago Latino Film Festival. Hier werd beoogd om aan de hand van een sterk illustratief beeld, een artistieke invulling te bieden aan de Latijns-Amerikaanse filmkunst.
