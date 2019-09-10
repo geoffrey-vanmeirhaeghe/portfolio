@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Dit is het grafisch portfolio van Geoffrey Van Meirhaeghe. 
   Ik ben een grafisch ontwerper met hoofdzakelijk interesse in digitale media, 
   webdesign en huisstijlontwerp.
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: geoffrey_vm
 github_username:  geoffrey-vanmeirhaeghe
