@@ -1,0 +1,1 @@
+Bricks & Leisure is een projectontwikkelaar die investeren in exploïtatievastgoed mogelijk wil maken voor particulieren. Zo bieden ze een sterk alternatief voor de traditionele spaarrekening door projecten aan te bieden met een hoog rendement.

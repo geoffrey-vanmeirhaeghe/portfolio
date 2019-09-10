@@ -1,0 +1,1 @@
+McDonald's heeft geen introductie nodig. Iedereen kent de fastfood gigant en herkent meteen de producten en visuele communicatie. Het werk dat ik leverde voor McDonald's was echter uitzonderlijk gelinkt aan de 6 restaurants van één franchisenemer in Gent en omstreken.

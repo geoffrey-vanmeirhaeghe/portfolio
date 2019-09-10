@@ -1,0 +1,1 @@
+Voor de Gentse afdelingen van McDonald's werd gezocht naar een aantrekkelijke poster om tijdens de Gentse Feesten één van de producten in de kijker te zetten. Hiervoor werd fotomateriaal vastgelegd van een uitnodigende compositie dat vervolgens werd omgezet in een smakelijk beeld.

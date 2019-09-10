@@ -1,0 +1,1 @@
+Voor de lancering van een hotel in Parijs zocht Bricks & Leisure een toegankelijke en trendy brochure. Binnen deze brochure wordt zowel het project als de service verduidelijkt en wordt met oog op investeerders ingezet op duidelijke communicatie.
